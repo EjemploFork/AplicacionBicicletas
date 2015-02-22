@@ -1,0 +1,14 @@
+create table Bicicletas(
+	Nombre VARCHAR(25),
+	Codigo INTEGER,
+	CONSTRAINT Bicicletas_Cod_pk PRIMARY KEY);
+
+create table Alquileres(
+	Codigo INTEGER PRIMARY KEY,
+	Fecha DATE,
+	Hora VARCHAR(5),
+	FechaDev DATE,
+	HoraDev VARCHAR(5),
+	Devuelta BOOLEAN,
+	Nombre VARCHAR(25),
+	Cod_Bici NUMBER);
