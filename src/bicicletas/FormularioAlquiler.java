@@ -32,6 +32,7 @@ public class FormularioAlquiler extends javax.swing.JFrame {
         setSize(524,358);
         setLocationRelativeTo(null); 
         System.out.println("Ejemplo");
+        System.out.println("Esto es un comentario de ejemplo");
         
     }
     
